@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	background-color: #D2B48C;
+}
+
+header{
+	width: 100%;
+	background: #DAA520 url(logo.jpg) no-repeat 5% 50%;
+	height: 110px;
+}
+
+.title{
+	font-size: 36px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.menu li{
+	float: left;
+	color: #8B4513;
+}
+
+.menu a {
+	display: block;
+	padding: 1em;
+	border-right: 1px solid #ADC0CE;
+	background: #DAA520;
+	color: #000000;
+}
+
+table, th, td {
+    border: 1px solid black;
+		
+}
+
+.even {
+	background: #808000;
+}
+
+.notEven {
+	background: #6B8E23;
+}
+
+footer{
+	width: 100%;
+	background: #DAA520;
+	height: 40px;
+	padding: 20px 0;
+	margin: 10px 0 0 0;
+}
+
+footer p{
+	font-size: 16px;
+}
